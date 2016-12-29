@@ -1,10 +1,10 @@
 {
   "name": "staged-pipeline",
   "version": "1.0.0",
-  "description": "Pipeline Lib which allows you to create stages and assign
-                  callbacks to all those stages. Stages will be executed one
-                  after another, but all functions assigned to one function will
-                  be executed in parallel.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/C3realGuy/staged-pipeline.git"
+  },
   "main": "middleware.js",
   "scripts": {
     "test": "mocha",

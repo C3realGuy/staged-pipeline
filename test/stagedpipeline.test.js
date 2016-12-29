@@ -3,7 +3,7 @@
 'use strict';
 
 var should = require('should');
-var Pipeline = require('../advancedpipeline.js');
+var Pipeline = require('../stagedpipeline.js');
 
 describe('AdvancedPipeline', function () {
   describe('#createStage()', function () {
