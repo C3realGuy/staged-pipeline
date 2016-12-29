@@ -1,0 +1,26 @@
+{
+  "name": "staged-pipeline",
+  "version": "1.0.0",
+  "description": "Pipeline Lib which allows you to create stages and assign
+                  callbacks to all those stages. Stages will be executed one
+                  after another, but all functions assigned to one function will
+                  be executed in parallel.",
+  "main": "middleware.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "author": "C3realGuy",
+  "license": "WTFPL",
+  "dependencies": {
+    "async": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
+  }
+}
